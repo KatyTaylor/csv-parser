@@ -26,3 +26,6 @@ A micro service to parse CSV files. Currently only parses tube rack barcodes.
 1. Edit the `.env` file to set `TUBE_RACK_DIR` to the root directory `.`
 1. Enter the python virtual environment using `pipenv shell`
 1. Run the tests using `python -m pytest`
+
+To test manually:
+1. Go to http://localhost:5000/tube_rack/AB12345678
